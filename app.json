@@ -22,12 +22,18 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCp35vugj5p7V5d7MzffWAid3cRkHbqXU8"
+          "apiKey": "AIzaSyAUdx_YdrwbdjQtCLnqK9U2SyIFj5IrgdM"
         }
-      }
+      },
+      "package": "com.anggaprytn.lowkeyapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b9ed61e-4d2c-48d1-9bad-87d93294e23a"
+      }
     }
   }
 }

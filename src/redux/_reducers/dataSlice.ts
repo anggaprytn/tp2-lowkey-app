@@ -6,8 +6,8 @@ interface DataState {
 }
 
 const initialState: DataState = {
-  name: '-',
-  hobby: '-',
+  name: '',
+  hobby: '',
 };
 
 const dataSlice = createSlice({

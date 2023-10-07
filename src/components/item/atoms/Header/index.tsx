@@ -20,7 +20,7 @@ const Header = () => {
             numberOfLines={1}
             align="right"
             style={{ width: wp(100) - 32 - 40 - 16 }}>
-            {name}
+            {name === '' ? '-' : name}
           </Text>
           <Image
             source={require('@/assets/images/img_propic_default.webp')}

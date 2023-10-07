@@ -12,7 +12,7 @@ export const useForm = () => {
   const inputHobbyRef = useRef(null);
 
   const nameRedux = useSelector(({ dataSlice }: any) => dataSlice.name);
-  const hobbyRedux = useSelector(({ dataSlice }: any) => dataSlice.hobbyRedux);
+  const hobbyRedux = useSelector(({ dataSlice }: any) => dataSlice.hobby);
 
   const [name, setName] = useState(nameRedux);
   const [hobby, setHobby] = useState(hobbyRedux);
