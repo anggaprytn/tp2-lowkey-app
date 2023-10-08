@@ -6,7 +6,7 @@ import { Header } from '@/components';
 import { useMap } from './_hooks';
 
 const Map = () => {
-  const { mapViewRef } = useMap();
+  const { mapViewRef, initialRegion } = useMap();
 
   return (
     <View style={styles.container}>
@@ -17,12 +17,7 @@ const Map = () => {
           provider={PROVIDER_GOOGLE}
           showsMyLocationButton
           showsUserLocation
-          initialRegion={{
-            latitude: -6.1753924,
-            longitude: 106.8271528,
-            latitudeDelta: 0.0025,
-            longitudeDelta: 0.0025,
-          }}
+          initialRegion={initialRegion}
           style={styles.container}
         />
       </View>
