@@ -1,4 +1,3 @@
-// PressableComponent.tsx
 import React, { useState } from 'react';
 import {
   Animated,

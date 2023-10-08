@@ -16,15 +16,17 @@ const Home = () => {
           <Text type="semibold" size={18}>
             📝 Isi Data Diri
           </Text>
-          {'\n'}Tambahkan dan kelola informasi pribadi Anda untuk pengalaman
-          yang lebih personalisasi.
+          {'\n'}
+          Tambahkan dan kelola informasi pribadi Anda untuk pengalaman yang
+          lebih personalisasi.
           {'\n'}
           {'\n'}
           <Text type="semibold" size={18}>
             🗺️ Google Maps Integration
           </Text>
-          {'\n'}Temukan dan simpan lokasi penting dengan mudah, langsung dari
-          aplikasi ini.
+          {'\n'}
+          Temukan dan simpan lokasi penting dengan mudah, langsung dari aplikasi
+          ini.
         </Text>
       </View>
     );

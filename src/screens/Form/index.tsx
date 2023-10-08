@@ -31,7 +31,7 @@ const Form = () => {
     );
   }, [inputNameRef, name, setName]);
 
-  const renderInputPassword = useMemo(() => {
+  const renderInputHobby = useMemo(() => {
     return (
       <TextInput
         ref={inputHobbyRef}
@@ -72,7 +72,7 @@ const Form = () => {
           <Header />
           {renderHeader}
           {renderInputName}
-          {renderInputPassword}
+          {renderInputHobby}
           {renderBtnSave}
         </View>
       </View>

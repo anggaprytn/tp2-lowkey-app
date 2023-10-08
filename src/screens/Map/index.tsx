@@ -10,17 +10,15 @@ const Map = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.container}>
-        <Header />
-        <MapView
-          ref={mapViewRef}
-          provider={PROVIDER_GOOGLE}
-          showsMyLocationButton
-          showsUserLocation
-          initialRegion={initialRegion}
-          style={styles.container}
-        />
-      </View>
+      <Header />
+      <MapView
+        ref={mapViewRef}
+        provider={PROVIDER_GOOGLE}
+        showsMyLocationButton
+        showsUserLocation
+        initialRegion={initialRegion}
+        style={styles.container}
+      />
     </View>
   );
 };
