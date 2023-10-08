@@ -11,7 +11,7 @@ const initialState: DataState = {
 };
 
 const dataSlice = createSlice({
-  name: 'auth',
+  name: 'data',
   initialState,
   reducers: {
     setNameAndHobby: (
