@@ -3,11 +3,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { RootStackParamList } from './_types';
 import { fadeTransition } from './transitions';
 
-//Authenticated Stack
-import Home from '@/screens/Home';
-import Map from '@/screens/Map';
-import Form from '@/screens/Form';
-
 //Bottom Tabs
 import BottomTabs from './BottomTabs';
 
@@ -23,27 +18,6 @@ const AuthenticatedStack = () => {
       <Stack.Screen
         name="BottomTabs"
         component={BottomTabs}
-        options={{
-          ...fadeTransition,
-        }}
-      />
-      <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{
-          ...fadeTransition,
-        }}
-      />
-      <Stack.Screen
-        name="Form"
-        component={Form}
-        options={{
-          ...fadeTransition,
-        }}
-      />
-      <Stack.Screen
-        name="Map"
-        component={Map}
         options={{
           ...fadeTransition,
         }}
